@@ -1,0 +1,745 @@
+@CHARSET "ISO-8859-1";
+#mainBody{
+	border:1px solid background;
+background-color: white;
+width: 852px;
+height: 1500px;
+float: left;
+font-size: 40px;
+margin-left: 282px;
+padding-left: 20px;
+
+}
+
+#header{
+	
+	background-color: white;
+	width:645px;
+	height:93px;
+	float: left;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+#logo{
+	
+	background-color: white;
+	width:155px;
+	height:123px;
+	float:left;
+	margin-top: 25px;
+}
+
+
+#intro ul{
+	list-style:none;
+	margin: 0;
+padding: 0
+}
+#intro ul li{
+	float:left;
+}
+#intro ul li a {
+	height: 65px;
+    width: 163px;
+	text-decoration:none;
+	float:left;
+	
+	font-size:20px;
+	color:#000;
+	border:1px solid black;
+	border-bottom:none;
+	padding:0px;
+	text-align:center;
+	display:block;
+	background:#69F;
+    font-weight:900;}
+#intro ul li a:hover{
+	background:white;
+	color:#0000ff;
+	
+}
+#intro ul li a#onlink{
+	background:white;
+}
+#staffOnly{
+	
+	height:40px;
+	width:397px;
+	float:left;
+	font-size:22px;
+	background-color:#c0c0c0;
+	padding-top: 10px;
+	padding-left:20px;
+}
+#b1{
+	height:40px;
+	width:190px;
+	float:left;
+	font-size:22px;
+	background-color:#c0c0c0;
+	padding-top: 10px;
+	padding-left:20px;	
+}
+#reg_10100{
+	width: 200px;
+height: 30px;
+float: left;
+font-size: 20px;
+text-align: center;
+border: 1px solid black;
+margin-top: 8px;
+background-color: #ffffcc;
+}
+#intro{
+	
+    height: 68px;
+    width: 831px;
+    float: left;
+    font-size:22px;
+    position:relative;
+}
+#yellowImgSample{
+	height:100px;
+	width: 100px;
+	position:relative;
+	float:left;
+}
+#yellowImg{
+	height:20px;
+	width:80px;
+}
+#genInfoSection{
+	height: 49px;
+width: 651px;
+float: left;
+font-size: 30px;
+background-color: blue;
+color:white;
+padding-left: 60px;
+padding-top: 10px;
+font-weight: 900;
+margin-left: 46px;
+margin-top: -2px;
+border-style: dashed;
+word-spacing: 5PX;
+}
+
+#myForm{
+	
+height: 1300px;
+width: 830px;
+float: left;
+
+}
+#todayDate{
+	font-size: 20px;
+height: 28px;
+width: 124px;
+float: left;
+margin-top: 0px;
+font-weight: bold
+}
+
+
+#reg_10200{
+border: 1px solid black;
+float: left;
+height: 23px;
+width: 180px;
+margin-top: 3px;
+font-size: 20px;
+font-weight: bold;
+margin-left: 20px;
+background-color: #ffffcc;
+
+}
+
+label { 
+    float: left;
+display: block;
+font-size: 20px;
+font-weight: 900;
+margin-top: 10px; 
+}
+#reg_10700{
+	float: left;
+margin-top: 10px;
+margin-left: 10px;
+border: 1px solid black;
+font-size: 20px;
+font-weight: 900;
+background-color: #ffffcc;
+padding-left: 5px;
+}
+#datte2{
+	float: left;
+margin-top: 10px;
+margin-left: 10px;
+border: 1px solid black;
+font-size: 20px;
+font-weight: 900;
+background-color: #ffffcc;
+padding-left: 5px;
+}
+
+.datefield { 
+   border: 1px solid black;
+background: #ffffcc;
+color: #666;
+width: 204px;
+height: 24px;
+font-size: 20px;
+margin-left: 139px;
+margin-top: 39px;
+margin-bottom: 9px
+}
+
+.datefield * { 
+   
+}
+
+.datefield input { 
+    width: 1.7em; 
+    padding: 0 0.4em; 
+    border: none; 
+    font-size: 100%; 
+    background: none;
+    color: #000;            
+}
+
+.datefield input#year { width:2.5em; }
+.datefield input:focus { outline:none; }
+
+
+#legalName{
+float: left;
+font-size: 20px;
+margin-left: 12px;
+margin-top: 0px;
+font-weight: 900;
+}
+#nameFirst{
+	float: left;
+font-size: 20px;
+margin-left: 0px;
+margin-top: 33px;
+font-weight:100;
+
+}
+#reg_10400{
+	width: 240px;
+height: 23px;
+float: left;
+font-size: 20px;
+text-align: left;
+border: 1px solid black;
+margin-top: 34px;
+background-color:#ffffcc;
+margin-left:25px;
+
+}
+#nameLast{
+	float: left;
+font-size: 20px;
+margin-left: -364px;
+margin-top: 26px;
+font-weight: 100;
+}
+#reg_10300{
+	width: 240px;
+height: 23px;
+float: left;
+font-size: 20px;
+text-align: left;
+border: 1px solid black;
+margin-top: 26px;
+background-color: #ffffcc;
+margin-left: -243px;
+
+}
+#nameMiddle{
+	float: left;
+font-size: 20px;
+margin-left: -365px;
+margin-top: 17px;
+font-weight: 100;
+
+}
+#reg_10500{
+	width: 240px;
+height: 23px;
+float: left;
+font-size: 20px;
+text-align: left;
+border: 1px solid black;
+margin-top: 18px;
+background-color: #ffffcc;
+margin-left: -241px;
+
+}
+#nameMaiden{
+	float: left;
+font-size: 20px;
+margin-left: 117px;
+margin-top: 12px;
+font-weight: 100;
+
+}
+#reg_10600{
+	width: 240px;
+height: 23px;
+float: left;
+font-size: 20px;
+text-align: left;
+border: 1px solid black;
+margin-top: 12px;
+background-color:#ffffcc;
+margin-left: 6px;
+focus:{
+background-color:#ffff99}
+}
+#birthDate{
+	font-size: 20px;
+height: 28px;
+width: 137px;
+float: left;
+margin-top: 12px;
+font-weight: bold;
+}
+
+#dateOfBirthSecond{
+border: 1px solid black;
+float: left;
+height: 23px;
+width: 180px;
+margin-top: 12px;
+font-size: 20px;
+font-weight: bold;
+margin-left: 3px;
+background-color: #c0c0c0;
+focus:{
+background-color:#fffcc}
+}
+#pfnText{
+	font-size: 20px;
+height: 28px;
+width: 137px;
+float: left;
+margin-top: 6px;
+font-weight: bold;
+}
+
+#reg_10800{
+border: 1px solid black;
+float: left;
+height: 23px;
+width: 180px;
+margin-top: 2px;
+font-size: 20px;
+font-weight: bold;
+margin-left: 3px;
+text-align: center;
+background-color: #ffffcc;
+}
+#cdcrNo{
+	font-size: 20px;
+height: 28px;
+width: 137px;
+float: left;
+margin-top: 3px;
+font-weight: bold;
+margin-left:85px;
+}
+
+#reg_10900{
+border: 1px solid black;
+float: left;
+height: 23px;
+width: 180px;
+margin-top: 2px;
+font-size: 20px;
+font-weight: bold;
+margin-left: -31px;
+text-align:center;
+background-color: #ffffcc;
+}
+#firstTime{
+	float:left;
+	font-size:20px;
+	font-weight:900;
+	margin-top: -8px;
+}
+#radioButtons{
+	float: left;
+font-size: 20px;
+font-weight: 900;
+margin-left: 27px;
+margin-top:-8px;
+focus:{
+background-color:#fffcc}
+}
+#visitorText{
+	float:left;
+	font-size:20px;
+	font-weight:900;
+	margin-top:9px;
+}
+#radioButtonsVisitor{
+	float: left;
+font-size: 20px;
+font-weight: 900;
+margin-left: 27px;
+margin-top:9px;
+focus:{
+background-color:#fffcc}
+}
+#visitorTextIfYes{
+	float:left;
+	font-size:20px;
+	margin-top:4px;
+	margin-left:22px;
+}
+#noOfAdults{
+	margin-left: 8px;
+float: left;
+border: 1px solid black;
+margin-top: 5px;
+height: 20px;
+width: 35px;
+font-weight: 900;
+font-size: 20px;
+background-color: #ffffcc;
+}
+#noOfChildren{
+	float: left;
+font-size: 20px;
+margin-left: 44px;
+margin-top: 5px;
+}
+#noOfChildrenn{
+	margin-left: 8px;
+float: left;
+border: 1px solid black;
+margin-top: 5px;
+height: 20px;
+width: 35px;
+font-weight: 900;
+font-size: 20px;
+background-color:#ffffcc;
+}
+#appointmentText{
+	float:left;
+	font-size:20px;
+	font-weight:900;
+	margin-top:0px;	
+}
+#radioButtonsAppointment{
+	float: left;
+font-size: 20px;
+font-weight: 900;
+margin-left: 27px;
+margin-top:1px;
+
+}
+#appointTime{
+	float:left;
+	font-size:20px;
+	margin-top:-26px;
+	margin-left:22px;
+	
+}
+#appointAmpmText{
+	float:left;
+	font-size:20px;
+	font-weight:900;
+	margin-top:20px;	
+	margin-left:-282px;
+}
+#appointmentBox{
+	margin-left: -100px;
+float: left;
+border: 1px solid black;
+margin-top: 19px;
+height: 22px;
+width: 75px;
+font-weight: 900;
+font-size: 20px;
+background-color: #ffffcc;
+text-align:center;
+padding-bottom: 4px;
+}
+#radioButtonsAppointmentTime{
+width: 62px;
+height: 50px;
+font-size: 21px;
+font-weight: 900;
+float: left;
+margin-top: 10px;
+}
+#appointWith{
+	float: left;
+font-size: 20px;
+margin-top: 10px;
+margin-left: -343px;
+width: 390px;
+}
+#appointmentTypes{
+	margin-top: 98px;
+float: left;
+height: 75px;
+margin-left: -404px;
+width: 201px;
+}
+ul{
+	font-size:20px;
+	float:left;
+	margin-top: auto;
+    line-height: 1.75em;
+    list-style-type:none;
+}
+li{
+	text-decocarion:none;
+}
+#appointmentTypes2{
+margin-top: 98px;
+float: left;
+height: 75px;
+margin-left: -203px;
+width: 330px;
+}
+#appointmentTypes3{
+	margin-top: 98px;
+float: left;
+height: 75px;
+margin-left: 0px;
+width: 279px
+}
+#notAboveText{
+	font-size: 20px;
+margin-left: 5px;
+float: left;
+margin-top: 10px;
+}
+#otherReason{
+	width: 550px;
+float: left;
+margin-top: 10px;
+margin-left: 5px;
+height: 20px;
+border: 1px solid black;
+background-color: #ffffcc;
+
+font-size:20px;
+}
+#sex{
+	float: left;
+margin-left: 48px;
+font-size: 20px;
+margin-top: 20px;
+	}
+#sexInfo{
+	float: left;
+margin-left: 48px;
+font-size: 20px;
+margin-top: 20px;
+}
+#supervisionText{
+	width: 670px;
+float: left;
+font-size: 20px;
+font-weight: 900;
+margin-top: 16px;
+}
+#supervisionRadioButtons{
+	float:left;
+	font-size:20px;
+	margin-top:10px;
+	margin-left:20px;
+}
+#bottomForm{
+	font-size:14px;
+	font-left;
+}
+
+#ssnText{
+	float:left;
+}
+#ssnInputt{
+	float: left;
+margin-top: 9px;
+margin-left: 15px;
+height: 20px;
+border: 1px solid black;
+background-color: #ffffcc;
+width: 165px;
+font-size: 20px;
+text-align:center;
+font-weight:900
+}
+#telephoneText{
+	float: left;
+background-color: red;
+margin-top: 51px;
+margin-left: -390px
+}
+
+#ssnBox{
+	float: left;
+
+height: 267px;
+width: 829px;
+margin-top: 5px;
+}
+#ssnRadio{
+	margin-top: 17px;
+float: left;
+margin-left: 20px;
+}
+#noTel{
+	float: left;
+margin-top: 10px;
+font-weight: 0;
+font-size: 20px;
+margin-left: 10px;
+}
+#mainTelText{
+	float: left;
+margin-top: 0px;
+margin-left: -252px;
+font-weight: 100;
+}
+#mainTelBox{
+	float: left;
+margin-left: -193px;
+height: 20px;
+text-align: center;
+background-color: #ffffcc;
+border: 1px solid black;
+font-size: 20px;
+width:185px;
+}
+#cellTelText{
+	float: left;
+margin-top: 0px;
+margin-left: 20px;
+font-weight: 100;
+}
+#cellTelBox{
+	float: left;
+margin-left: 20px;
+height: 20px;
+text-align: center;
+background-color: #ffffcc;
+border: 1px solid black;
+font-size: 20px;
+width:185px;
+}
+#emailText{
+	float: left;
+margin-top: 0px;
+margin-left: 0px;
+font-weight: 900;
+}
+#emailBox{
+	float: left;
+margin-left: 3px;
+height: 20px;
+text-align: center;
+background-color: #ffffcc;
+border: 1px solid black;
+font-size: 20px;
+width: 458px;
+}
+
+#healthCoverRadio{
+	float:left;
+	width:830px;
+	height:90px;
+	font-size:20px;
+}
+#ifSelfPaid{
+	font-weight:100;
+	float:left;	
+}
+#ifSelfPaidBox{
+	float:left;
+	height:20px;
+	font-size:20px;
+	border:1px solid black;
+	text-align:center;
+	width: 500px;
+	background-color:#ffffcc;
+	margin-top:10px;
+	margin-left:10px;
+}
+ #underSuper{
+ float:left;
+ font-size:20px;
+ }
+#underSuperBox{
+	float: left;
+margin-top: 11px;
+font-size: 20px;
+}
+
+
+
+
+
+#formSecond{
+	height: 1500px;
+width: 830px;
+float: left;
+background-color:orange;
+}
+
+#criminalJustSection{
+		height: 49px;
+width: 651px;
+float: left;
+font-size: 30px;
+background-color: #6699ff;
+color:white;
+padding-left: 60px;
+padding-top: 10px;
+font-weight: 900;
+margin-left: 46px;
+margin-top: 10px;
+border-style: dashed;
+word-spacing: 5PX;
+}
+#prisonText{
+	float: left;
+background-color: white;
+height: 172px;
+margin-top: 0px;
+margin-left: 0px;
+width: 830px;
+	
+}
+#prisonText1{
+	font-size: 20px;
+font-weight: 900;
+float: left;
+}
+#personTextt{
+	float: left;
+margin-left: -36px;
+margin-top: 12px;
+}
+#personTextt2{
+	float: left;
+margin-top: 12px;
+margin-left: -38px;
+}
+#personTextt3{
+	float: left;
+margin-left: -37px;
+margin-top: 11px;
+}
+#personTextt4{
+	float:left;
+}

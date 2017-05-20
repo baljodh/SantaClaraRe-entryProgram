@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Home- Santa Clara County Reentry Services- County of Santa Clara</title>
+<script src="jquery-1.11.1.js"></script>
+<script src="indexHome.js"></script>
+<link rel="Stylesheet" href="indexStyle.css">
+</head>
+<body> 
+
+<div id="mainBody">
+   <div id="header"><b>REENTRY RESOURCE CENTER REGISTRATION FORM</p></b></div>
+        <div id="logo"><img id="myimag" src="images/SCC logo.jpg" style="width:90px;height:100px,padding-left:25px;"/></div>
+              <div id="staffOnly"><b>*STAFF USE ONLY</b></div>
+                   <b id="b1">PRIMARY KEY:</b>
+            <form action="" method="get">
+                   <input id="reg_10100" onclick="changeColor()"type="text" name="number" value="" maxlength="8"  autocomplete="off"/>
+            </form>
+        <div id="intro">
+           <ul>
+           <li><a href="index.html" id="onlink">General Information</a></li> 
+           <li><a href="criminal.html" id="onlinkCriminal">Criminal Justice History</a></li>
+           <li><a href="servicerRequest.html" id="onlinkServices">Service Requests</a></li>
+           <li><a href="newClientInfo.html" id="onlinkClient">New Clients Information</a></li>
+           <li><a href="forStaffOnly.html" id="onlinkForStaff">For Staff Only</a></li>
+           </ul>
+    <!--  <button id="firstButton"> Criminal Justice History</button>
+  <button id="secButton">Service Requests</button>
+  <button id="thirdButton">New Clients Information</button>
+  <button id="fourButton">All Fields Together</button>
+  <button id="fiveButton">For Staff Only</button>-->
+
+        </div>
+<form id="myForm" >            
+   <div id="genInfoSection">SECTION A - GENERAL INFORMATION</div>
+  <br>
+
+   <label id="todayDate" for="genralInformationForm">Today's Date:</label>
+      <input id="reg_10200" onclick="changeDatecolor()" type="date" name="DOB" maxlength="8"  value=""/><br>
+      
+      
+   
+      
+   <p id=legalName>Legal Name:</p>  
+   <label id="nameFirst" for="genralInformationForm">First Name:</label>
+      <input id="reg_10400" type="text" onclick="changeFcolor()" name="first name" maxlength="16" value=""/><br>    
+   <label id="nameLast" for="genralInformationForm">Last Name:</label>
+      <input id="reg_10300" type="text" onclick="changeLcolor()"name="Last name" maxlength="16" value=""/><br>        
+   <label id="nameMiddle" for="genralInformationForm">Middle Name:</label>
+      <input id="reg_10500" type="text" onclick="changeMcolor()"name="Middle name" maxlength="16" value=""/><br>
+   <label id="nameMaiden" for="genralInformationForm">Maiden Name:</label>
+      <input id="reg_10600" type="text" onclick="changeMacolor()"name="Maiden name" maxlength="16" value=""/><br> 
+      
+      
+               
+   <!--<label id="birthDate" for="genralInformationForm">Date Of Birth:</label>
+       <input id="dateOfBirthSecond" onclick="changebirthDatecolor()" type="date" name="DOB" maxlength="8" value=""/><br>-->
+       
+       <label for="day1">Date of Birth:</label>
+       <input id="reg_10700" type="date"><br>
+    
+      
+       
+   <label id="pfnText" for="genralInformationForm">PFN No:</label>
+      <input id="reg_10800" onclick="changepfncolor()" type="text" name="number" maxlength="10" value=""/>
+   <label id="cdcrNo" for="genralInformationForm">CDCR No:</label>
+      <input id="reg_10900" onclick="changecdcrcolor()" type="text" name="number" maxlength="10" value=""/><br>
+   <label id="firstTime" for="generalInformationForm">Is This Your First Visit to the Reentry Resource Center?  </label>   
+      <div id="radioButtons"> <input id="reg_11000" type="radio" name="Yes" value="Yes"/>Yes
+      <input id="noRadioButton" type="radio" name="No" value="No"/>NO </div>
+   <label id="visitorText" for="generalInformationForm">Do you have any visitor with you today?</label> 
+      <div id="radioButtonsVisitor"> <input id="visitorRadioButton" type="radio" name="Yes" value="Yes"/>Yes
+      <input id="visitorRadioButton" type="radio" name="No" value="No"/>NO </div>   <br>
+   <label id="visitorTextIfYes" for="generalInformationForm">If <i><b>"Yes"</b></i> how many?  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp #No of Adults </label>
+      <input id="noOfAdults" onclick="changeAdultColor()" maxlength="3" type="text" value=""/> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+   <label id="noOfChildren"> # of Children</label>
+      <input id="noOfChildrenn" onclick="changeChildrenColor()" type="text" maxlength="3" value=""/><br>
+   <label id="appointmentText" for="generalInformationForm">Do you have an appointment?</label> 
+      <div id="radioButtonsAppointment"> <input id="appointmentRadioButtonYes" type="radio" name="Yes" value="Yes"/>Yes
+      <input id="appointmentRadioButtonNo" type="radio" name="No" value="No"/>NO </div>   <br>
+        <p id="appointTime">If <i><b>"Yes</b></i>, what time is your appointment?</p> 
+        <label id="appointAmpmText">Appointment Time:</label>
+      <input id="appointmentBox" type="text" onclick="changeBoxColor()" value="" maxlength="5" placeholder="HH:MM"/> 
+         <div id="radioButtonsAppointmentTime"> <input id="appointmentRadioButtonTimeYes" type="radio" name="AM" value="AM"/>AM<br>
+             <input id="appointmentRadioButtonTimeNo" type="radio" name="PM" value="PM"/>PM 
+    <label id="appointWith">Please tell us who your appointment is with?</label>         
+         </div>   
+    <div id="appointmentTypes">
+         <ul>
+         <li><input type="radio" value="Social Services">Social Services</li>   <li><input type="radio" value="Probation officer">Probation officer</li>   
+         </ul>
+    </div>    
+     <div id="appointmentTypes2">
+         <ul>
+         <li><input type="radio" value="Psychiatric Services">Psychiatric Services</li>   <li><input type="radio" value="Medical Mobile Unit (MMU)">Medical Mobile Unit (MMU)</li>   
+         </ul>
+    </div>      
+    <div id="appointmentTypes3">
+         <ul>
+         <li><input type="radio" value="Expungement">Expungement</li>   <li><input type="radio" value="Rehab Counselor">Rehab Counselor</li>   
+         </ul>
+    </div><br>
+    <label id="notAboveText">If not listed above, write here:</label> 
+       <input id="otherReason" onclick="changeotherReasonncolor()" type="text" name="number" maxlength="50" value=""/> <br><br>
+    <label id="sex"><b>Sex:</b></label>
+       <div id="sexInfo" ><input id="sexMale" type="radio" name="Male" value="male"/>Male&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       <input id="sexFemale" type="radio" name="Femal" value="Female"/>Female&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       <input id="sexTrans" type="radio" name="transexual" value="Transexual"/>Transexual&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       <input id="sexOther" type="radio" name="other" value="Other"/>Other</div> <br>
+    <span id="supervisionText">Are you reporing for supervision today?</span>
+    <div id="supervisionRadioButtons"> 
+       <input id="yesProbation" type="radio" name="yes probation AB109" value="Yes, Probation AB109"/>Yes, Probation AB109&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       <input id="yesParole" type="radio" name="yes parole" value="Yes, Parole"/>Yes, Parole&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       <input id="yesCasu" type="radio" name="yes CASU" value="Yes, CASU"/>Yes, CASU&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       <input id="noVoluntary" type="radio" name="no voluntary" value="No, I am here Voluntarily"/>No, I am here Voluntarily<br>
+       
+       
+       
+    </div>    
+    
+       
+       
+       <div id="ssnBox">
+       <label>Telephone:</label>
+       <input id="ssnRadio" type="radio" name="yes" value="Yes, Probation AB109"/>
+       <p id="noTel">No Telephone</p><br>
+       <label id="mainTelText">Main:</label>
+       <input id="mainTelBox" onclick="changeMainTelncolor()" type="text" name="number" maxlength="12" autocomplete="off" value=""/> 
+       <label id="cellTelText">Cell:</label>
+       <input id="cellTelBox" onclick="changecellTelcolor()" type="text" name="number" maxlength="12" autocomplete="off" value=""/><br>
+       <label id="emailText">Email:</label>
+       <input id="emailBox" onclick="changeemailcolor()" type="text" name="number" maxlength="30" autocomplete="off" value=""/> <br>
+       
+    <label id="healthCoverText">What type of health insurance coverage you have?</label>
+      <div id="healthCoverRadio">
+        <input id="NoHealthCov" type="radio" name="NoHealthCov" value="No Health Cover"/>No Health Cover&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       <input id="employerSponsored" type="radio" name="employerSponsored" value="employer Sponsored"/>Employer Sponsored Plan&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       <input id="vaBenefits" type="radio" name="vaBenefits" value="vaBenefits"/>VA Benefits&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       <input id="selfPaid" type="radio" name="selfPaid" value="Any Self Paid Plan"/>Any Self Paid Plan<br>
+       <input id="MediCAl" type="radio" name="MediCAl" value="MediCAl"/>MediCAl&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       <input id="Merdicare" type="radio" name="Merdicare" value="Merdicare"/>Merdicare&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       <input id="MediCAl" type="radio" name="MediCAl" value="MediCAl"/>MediCAl&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       <input id="mediMedi" type="radio" name="mediMedi" value="Medi Medi"/>Medi Medi(MediCAl and Medicare)<br>
+     <label id="ifSelfPaid">If <i><b>self paid</b></i>, please write in:</label>  
+        <input id="ifSelfPaidBox" onclick="changeSelfPaidcolor()" type="text" name="number" maxlength="20" value="" autocomplete="off"/><br>
+     <label id="underSuper">Under your supervision, do you have a housing restriction:</label>
+        <div id="underSuperBox">
+        <input id="yesSuper" type="radio" name="Yes" value="Yes"/>Yes
+       <input id="noSuper" type="radio" name="No" value="No"/>No
+      </div>
+  </div>
+  </div>
+  <button id="endPage" style="float: left;
+margin-top: 60px;
+margin-left: 339px;
+text-decoration: none;
+height: 43px;
+color: black;
+background-color: lightyellow;
+font-size: 20px;
+font-weight: 900;
+border: 2px solid black;"><a href="criminal.html">Next Page</a></button>
+</form>
+  <br>
+
+
+  </div>
+
+   
+      
+
+</body>
+</html>

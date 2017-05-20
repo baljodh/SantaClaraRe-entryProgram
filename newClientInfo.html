@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>New Client Information</title>
+<link rel="Stylesheet" href="newClient.css"/>
+</head>
+<body>
+<div id="mainBoddy">
+<div id="header"><b>REENTRY RESOURCE CENTER REGISTRATION FORM</p></b></div>
+        <div id="logo"><img id="myimag" src="images/SCC logo.jpg" style="width:90px;height:100px,padding-left:25px;margin-top:28px;"/></div>
+              <div id="staffOnly1"><b>*STAFF USE ONLY</b></div>
+                 
+        <div id="intro">
+           <ul>
+           <li><a href="index.html" id="onlink">General Information</a></li> 
+           <li><a href="criminal.html" id="onlinkCriminal">Criminal Justice History</a></li>
+           <li><a href="servicerRequest.html" id="onlinkServices">Service Requests</a></li>
+           <li><a href="newClientInfo.html" id="onlinkClient">New Clients Information</a></li>
+        
+           <li><a href="forStaffOnly.html">For Staff Only</a></li>
+           </ul>
+   
+
+        </div>
+   <div id="newClientInfo">SECTION D- New Client Information</div>
+   
+   <div id="genInfoSectionn">GENERAL INFORMATION</div><br><br>
+     <label id="alternativeNameText"><b>Alternative Name: Enter alternate name, (if Any):</b></label> <br>
+   <label id="nameFirstInfo" for="genralInformationForm">First Name:</label>
+      <input id="fNameInfo" type="text" onclick="changeFcolor()" name="first name" maxlength="16" value=""/><br>    
+   <label id="nameLastInfo" for="genralInformationForm">Last Name:</label>
+      <input id="lNameInfo" type="text" onclick="changeLcolor()"name="Last name" maxlength="16" value=""/><br>        
+   <label id="nameMiddleInfo" for="genralInformationForm">Middle Name:</label>
+      <input id="mNameInfo" type="text" onclick="changeMcolor()"name="Middle name" maxlength="16" value=""/><br><br><br>
+   
+   <label id="liveText"><b>Where do you live?</b></label>
+      <input id="homeles" type="radio" value="Homeless" number="number"/>Homeless<br>
+   <label id="streetNo">Street No:</label> <input id="streetNoBox"  type="text" value="" maxlength="8"/>
+   <label id="suitNo">Suite/Apt/Unit No.:</label> <input id="suiteBox"  type="text" value="" maxlength="8"/><br><br>
+   <label id="streetNoText">Street:</label> <input id="streetBox"  type="text" value="" maxlength="30"/><br><br>
+   <label id="cityText">City:</label> <input id="cityBox"  type="text" value="" maxlength="30"/><br><br>
+   <label id="zipNo">Zip Code:</label> <input id="zipBox"  type="text" value="" maxlength="15"/>
+   <label id="stateText">State:</label> <input id="stateBox"  type="text" value="" /><br><br>
+   <label id="statusMarital"><b>What is your Marital Status?</b></label><br>
+       
+       <div id="appointmentTypes">
+         <ul>
+         <li><input type="radio" value="Single">Single</li>   <li><input type="radio" value="Divorced">Divorced</li>   
+         </ul>
+    </div>    
+     <div id="appointmentTypes2">
+         <ul>
+         <li><input type="radio" value="married">Married</li>   <li><input type="radio" value="Widow">Widow</li>   
+         </ul>
+    </div>      
+    <div id="appointmentTypes3">
+         <ul>
+         <li><input type="radio" value="seperated">Separated</li>   <li><input type="radio" value="living with other">Living with significant other</li>   
+         </ul>
+    </div><br><br>
+    
+    <label id="primaryLanguageText"><b>What's your Primary Language?</b></label><br>
+       
+       <div id="languageTypes">
+         <ul>
+         <li><input type="radio" value="English">English</li>   <li><input type="radio" value="spanish">Spanish</li>   
+         </ul>
+    </div>    
+     <div id="languageTypes2">
+         <ul>
+         <li><input type="radio" value="vietnamese">Vietnamese</li>   <li><input type="radio" value="Tagalog">Tagalog</li>   
+         </ul>
+    </div>      
+    <div id="languageTypes3">
+         <ul>
+         <li><input type="radio" value="Mandarian">Mandarian</li>   <li><input type="radio" value="AmericanSignLanguage">American Sign Language</li>   
+         </ul>
+   </div><br><br>
+    <label id="other">other language:</label> 
+       <input id="otherLang"  type="text" name="" maxlength="20" value=""/> <br><br>
+    <label id="raceText"><b>What is your race? Pick up to 5</b></label>
+    <div id="raceType">
+         <ul>
+         <li><input type="radio" value="Alaskan Native">Alaskan Native</li>   <li><input type="radio" value="American Indian">American Indian</li>
+         <li><input type="radio" value="Asian Indian">Asian Indian</li>   <li><input type="radio" value="Black/African-American">Black/African-American</li>   
+         <li><input type="radio" value="Cambodian">Cambodian</li>   <li><input type="radio" value="Chinese">Chinese</li>   
+         </ul>
+    </div>
+    <div id="raceType2">
+         <ul>
+         <li><input type="radio" value="Filipino">Filipino</li>   <li><input type="radio" value="Guamanian">Guamanian</li>
+         <li><input type="radio" value="Hawaiian">Hawaiian</li>   <li><input type="radio" value="Japanese">Japanese</li>   
+         <li><input type="radio" value="Korean">Korean</li>   <li><input type="radio" value="Laotian">Laotian</li>   
+         </ul>
+    </div>
+    <div id="raceType3">
+         <ul>
+         <li><input type="radio" value="Multi Racial">Multi Racial</li>   <li><input type="radio" value="Other Asian">Other Asian</li>
+         <li><input type="radio" value="Other Race">Other Race</li>   <li><input type="radio" value="Samoan">Samoan</li>   
+         <li><input type="radio" value="Vietnamese">Vietnamese</li>   <li><input type="radio" value="White/Caucasian">White/Caucasian</li>   
+         </ul>
+    </div><br><br><br><br><br><br><br><br>
+    <label id="ethinicity"><b>Ethinicity:</b></label>
+    <div id="ethicType">
+         <ul>
+         <li><input type="radio" value="Not Hispanic">Not Hispanic</li>   <li><input type="radio" value="Mexican/Mexican-American">Mexican/Mexican-American</li>
+         <li><input type="radio" value="Cuban">Cuban</li>   <li><input type="radio" value="Puerto Rican">Puerto Rican</li>   
+         <li><input type="radio" value="Other">Other</li>     
+         </ul>
+    </div><br><br><br><br><br><br>
+    <label id="employment"><b>If unemployed, are you employable?</b></label>
+       <input type="radio" value="yes">Yes
+       <input type="radio" value="no">No<br><br>
+    <label id="currentlyJob"><b>Do you currently have a job?</b></label>
+       <div id="currentlyJobBoxes">
+         <ul>
+         <li><input type="radio" value="YES FULL TIME (35+ hrs/wk)">YES FULL TIME (35+ hrs/wk)</li>   <li><input type="radio" value="YES PART TIME (Under 35 hrs/wk)">YES PART TIME (Under 35 hrs/wk)</li>
+         <li><input type="radio" value="YES self - employed">YES self - employed</li>
+              
+         </ul>
+    </div>
+    <div id="currentlyJobBoxes1">
+         <ul>
+            <li><input type="radio" value="NO, but I am looking">NO, but I am looking</li>   
+         <li><input type="radio" value="NO and I am NOT currently looking for employment">NO and I am NOT currently looking for employment</li> 
+         </ul>
+    </div>
+    
+    <br><br><br><br><br>
+    <label id="whyNoJob"><b>If no, please tell us why?</b></label>
+    <div id="whyNoJobBoxes">
+         <ul>
+         <li><input type="radio" value="Physically disabled">Physically disabled</li>   <li><input type="radio" value="Mental Health Condition">Mental Health Condition</li>
+         </ul>
+    </div>
+    <div id="whyNoJobBoxes1">
+         <ul>
+         <li><input type="radio" value="Retired">Retired</li>      
+         <li><input type="radio" value="other">other<input id="otherWhyNoJob" type="text" value=""></li>      
+         </ul>
+    </div>
+    
+    <div id="backgroundInfo">BACKGROUND INFORMATION</div><br><br><br><br><br><br>
+    <label id="levelEdu"><b>What is the highest level of education?</b></label>
+    <div id="levelEdu2">
+         <ul>
+         <li><input type="radio" value="some High College">Some High College</li>   <li><input type="radio" value="College">College</li>
+         <li><input type="radio" value="High School diploma">High School Diploma/GED</li>   
+         </ul>
+    </div>
+    <div id="levelEdu3">
+         <ul>
+         <li><input type="radio" value="No formal schooling">No Formal Schooling</li>   <li><input type="radio" value="Some College">Some College</li>
+         <li><input type="radio" value="None">None of Above</li>      
+         </ul>
+    </div><br><br><br><br><br>
+    <label id="highGradeText"><b>If you marked <i>"some high school"</i>, please indicate highest grade completed: </b></label>
+       <input id="highGradeBox" type="text" name="highest grade" maxlength="2" value=""/><br>
+       <label id="veretannn">Are you Veteran?</label><input id="veteran" type="radio" value=""/>Yes<input id="veterann" type="radio" value=""/>No<br><br>
+    <label id="military"><b>Have you ever served in military?</b></label>
+    <div id="militaryOptions">
+         <ul>
+         <li><input type="radio" value="yes">Yes, US military</li>             
+         </ul>
+    </div>  
+     <div id="militaryOptions2">
+         <ul>
+           <li><input type="radio" value="No">No, non-US military</li>         
+         </ul>
+    </div>   
+     <div id="militaryOptions3">
+         <ul>
+         <li><input type="radio" value="never">I have never served military</li>          
+         </ul>
+    </div>  <br><br>
+    <label id="fostercare"><b>Have you ever been in foster care system?</b></label><input id="fostercareBoxYes" type="radio" value=""/>Yes<input id="fostercareBoxNo" type="radio" value=""/>No<br><br>
+      
+      <label id="fosterYes"><b>If "Yes", at what age did you enter in foster care?</b></label>
+       <input id="fosterYesBox" type="text" name="" maxlength="3" value=""/><br>
+      <label id="justiceSystem"><b>Have you ever been involved with the Juvenile Justice System?</b></label>
+        <input id="justiceBoxYes" type="radio" value=""/>Yes<input id="justiceBoxNo" type="radio" value=""/>No<br><br>
+      <label id="justiceYes"><b>If "Yes", at what age did you enter in Juvenile Justice System?</b></label>
+       <input id="justiceYesBox" type="text" name="" maxlength="4" value=""/><br> <br>
+       
+   <div id="housingStatusSection">HOUSING STATUS</div><br><br>
+     <label id="livingStatus"><b>Choose the best description of where you are living now. How did you spend last night?</b></label>
+      <div id="livingStatusBox">
+         <ul>
+         <li><input type="radio" value="">I own a house, apartment, condo, or other type of home</li><li><input type="radio" value="">I rent a house,apartment unit, or room- mmy name is on the lease</li>
+        <li><input type="radio" value="">I live with family(I pay rent)</li> <li><input type="radio" value="">I live with family(I do not pay rent)</li>   
+         <li><input type="radio" value="">I live with friends(I do not pay rent)</li>   
+         <li><input type="radio" value="">Parole Housing</li><li><input type="radio" value="">Other</li><li><input id="otherNightSpentBox" type="text" value=""/></li>
+           
+         </ul><br>
+    </div>
+    <div id="livingStatusBox2">
+         <ul>
+         <li><input type="radio" value="">Correctional Facility</li><li><input type="radio" value="">County Drug/Alcohol Program</li>
+         <li><input type="radio" value="">Medical Hospital or Facility</li> <li><input type="radio" value="">Psychiatric Hospital/ Treatment Center</li>   
+         <li><input type="radio" value="">Shelter or Motel (with voucher)</li>   <li><input type="radio" value="">Sober Living Environment (SLE)</li>  
+         <li><input type="radio" value="">Transitional Housing Unit(THU)</li>     
+         </ul><br>
+    </div><br><br><br><br>
+    <label id="howLongLiving"><b>How long have you been living this way? If released, Please answer for the time period<br>AFTER your release date:</b></label>
+    <div id="howLongLiving2">
+         <ul>
+         <li><input type="radio" value="">1 week or less</li><li><input type="radio" value="">More than 1 week,less than 1 month</li>
+         <li><input type="radio" value="">More than 1 week, less than 3 months</li> 
+         </ul><br>
+    </div><br>
+    <div id="howLongLiving3">
+         <ul>
+         <li><input type="radio" value="">More then 3 months but less than 1 year</li><li><input type="radio" value="">1 year or longer</li>
+         <li><input type="radio" value="">Unknown, my best guess is (months)</li> 
+         </ul><br>
+    </div><br><br>
+    <label id="currentSituation"><b>Where did live prior to your current situation?</b></label>
+         <ul>
+         <li><input type="radio" value="">Shelter</li><li><input type="radio" value="">Non-living Space (outside, vehicle, etc)</li>
+         <li><input type="radio" value="">Any other (housed)</li> 
+         </ul>
+    <label id="housing"><b>If you chose "any other" can you return to that housing if you need to?</b> </label><br>
+        <div id="housingYes">
+         <ul>
+         <li><input type="radio" value="">YES</li>
+         </ul>
+    </div>
+       <div id="housingNo">
+         <ul>
+         <li><input type="radio" value="">NO</li>
+         </ul>
+    </div>
+        <div id="housingNotSure">
+         <ul>
+         <li><input type="radio" value="">I AM NOT SURE</li>
+         </ul>
+    </div>
+         
+    <label id="currentHousingLast"><b>How long is your current housing supposed to last?</b></label>
+         <div id="currentHousingLastBox">
+         <ul>
+         <li><input type="radio" value="">Permanent(no time limit)</li><li><input type="radio" value="">Temporary(Family, Friends, Shelter, Upcoming Eviction)</li>
+         <li><input type="radio" value="">N/A (I am currently living in a place not meant to be lived in)</li> 
+         </ul><br>
+    </div>
+   <label id="monthlyRent"><b>If you pay rent what is the monthly amount? $</b></label><input id="monthlyRentBox" type="text" maxlength="4"/>
+    <label id="housingSubsidies"><b>Are you currently rental assistance/ housing subsidies?</b></label>
+    <div id="housingSubsidiesYes"><input type="radio" value="">YES<input type="radio" value="">NO</div><br>
+   <label id="housingIfYes">If <b>"Yes"</b>, Please choose one:</label> <br><br><br><br>
+     <div id="housingIfYesSection">
+     <ul>
+         <li><input type="radio" value="">Section 8</li>
+         <li><input type="radio" value="">Housing 1000</li>
+         <li><input type="radio" value="">Other:</li><input id="subsidiesBox" type="text"value="" maxlength="50"/>
+     </ul>
+     </div>
+     <div id="housingIfYesSection2">
+     <ul>
+         <li><input type="radio" value="">General Assistance</li>
+         <li><input type="radio" value="">HUD Housing</li> 
+     </ul>
+     </div>
+     <div id="housingIfYesSection3">
+     <ul>
+         <li><input type="radio" value="">Shelter Plus Care</li>
+         <li><input type="radio" value="">SRO Mod Rehab</li> 
+         </ul>
+     </div>
+     
+   <label id="discharged"><b>Will you be discharged, evicted, or required to leave your current living space in the near future?</b></label> 
+     <div id="dischargedBox">
+         <input id="dischargedYes" type="radio" value=""/>YES 
+     </div>
+     <div id="dischargedBox2">
+         <input id="dischargedProbably" type="radio" value=""/>Probably 
+     </div>
+     <div id="dischargedBox3">
+         <input id="dischargedNo" type="radio" value=""/>NO 
+     </div>
+     
+   <label id="dischargedYesProbably">If <b>"yes"</b> or <b>"probably"</b>, please list the date(or your best guess) when you will lose housing:</label>   <br>
+       <input id="dischargedDate" type="date" value=""/>
+   <label id="separateHomeless"><b>How many separate times have you been homeless in the past 3 years (including this time if you are homeless or will be soon)?</b></label>    
+     <div id="separateHomelessBox">
+         <ul><li><input id="neverHomeless" type="radio" value=""/>Never Homeless </li>
+         <li><input id="moreTimesHomeless" type="radio" value=""/>4 or more times</li>
+         </ul>
+     </div>
+     <div id="separateHomelessBox2">
+         <ul><li><input id="oneTime" type="radio" value=""/>1 time</li>
+         <li><input id="notSure" type="radio" value=""/>Not Sure, but more than 1 time  </li></ul>        
+     </div>
+     <div id="separateHomelessBox3">
+         <ul><li><input id="twoThreeTimes" type="radio" value=""/>2-3 times, including this one</li></ul>
+     </div>
+     <br><br>
+             <br>
+   <label id="whoReffered"><b>Who referred you here?How did you hear about us?</b></label><br>
+     <div id="whoRefferedOneLine">
+     <ul>
+         <li><input type="radio" value="">Probation Officer</li>
+         <li><input type="radio" value="">Drug Treatment Court(any calener)</li>
+         <li><input type="radio" value="">Self</li> 
+         <li><input type="radio" value="">Other:</li><input id="otherWhoReffered" type="text"value="" maxlength="50"/>
+     </ul>
+     </div>
+     <div id="whoRefferedTwoLine">
+     <ul>
+         <li><input type="radio" value="">ParoleAgent</li>
+         <li><input type="radio" value="">Friend/Family</li> 
+         <li><input type="radio" value="">Reentry Court</li> 
+     </ul>
+     </div><br><br><br><br><br><br><br>
+     
+ <div id="myStopImage"><img id="stopImage" src="images/stop.png" /> 
+ <h2 >STOP! You have completed the RRC Registration Form. Please Proofread and turn in to the Welcome Desk.</h2></div>
+     <button id="endPage" style="float: left;
+margin-top: 30px;
+margin-left: 339px;
+text-decoration: none;
+height: 43px;
+color: black;
+background-color: lightyellow;
+font-size: 20px;
+font-weight: 900;
+border: 2px solid black;"><a href="forStaffOnly.html">Next Page</a></button>
+     </div>
+    
+  
+    
+</body>
+</html>
